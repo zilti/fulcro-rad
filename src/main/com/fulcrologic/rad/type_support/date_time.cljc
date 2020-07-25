@@ -7,8 +7,8 @@
   (:require
     ;; FIXME: Straighten out our story on locale support. Right now defaulting to en-US, which is not right.
     #?@(:cljs
-        [["js-joda"]
-         ["js-joda-timezone"]
+        [["@js-joda/core"]
+         ["@js-joda/timezone"]
          ["@js-joda/locale_en-us" :as js-joda-locale]])
     [clojure.spec.alpha :as s]
     [com.fulcrologic.rad.locale :as locale]
